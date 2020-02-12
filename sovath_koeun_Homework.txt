@@ -1,0 +1,35 @@
+// -------------------------------------------------------------
+	// CHALLENGE 4
+	// Rename with mean full names : vv, z1, z2 , valid_3
+	// -------------------------------------------------------------
+	public static boolean getName(List<String> ListName) {
+		boolean resultOne = false;
+		boolean resultTwo = false;
+		for(String getName :ListName) {
+			if (getName.equals("ronan")) {
+				resultOne = true;
+			}
+			if (val-tmp.equals("channak")) {
+				resultTwo = true;
+			}
+		}
+		return resultOne && resultTwo;
+	}
+		
+
+
+// -------------------------------------------------------------
+	// CHALLENGE 5
+	// Rename with mean full names : getX, c1, c2 , x
+	// ------------------------------------------------------------
+	public static List<Employee> getEmployee(List<Employee> Listemployee) {
+		
+		// This function should return the list of employees who are senior
+		List<Employee> employee = new ArrayList<>();
+		for(Employee isEployee : Listemployee) {
+			if (isEployee.isSenior()) {
+				employee.add(isEployee);
+			}
+		}
+		return employee;
+	}
